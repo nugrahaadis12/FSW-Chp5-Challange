@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Styles-Chp4.css">
+    <title>RPS Game</title>
+</head>
+
+<body>
+
+    <section id="RPS-Game">
+        <!-- Image and text -->
+        <nav class="navbar navbar-light bg-transparent">
+            <a class="navbar-brand" href="#" style="color:#F9B23D;">
+                <b>
+                    < </b>
+                        <img class="logo-RPS" src="./assets-Chp4/GitHub Desktop.webp" width="30" height="30" class="d-inline-block align-top"
+                            alt="">
+                        ROCK PAPER SCISSORS
+            </a>
+        </nav>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 player-container text-center" id="player">
+                    <h3>PLAYER 1</h3>
+                    <!-- <h2>
+                        You - <span id="playerScore">0</span>
+                        <span id="playerChoice">-- Choice</span>
+                    </h2> -->
+                    <div class="card">
+                        <div class="card-body">
+                            <img id="playerRock" src="./assets-Chp4/batu.png" onclick="milih('Rock')" alt="">
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img id="playerPaper" class="kertasIMG" src="./assets-Chp4/kertas.png" onclick="milih('Paper')"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img id="playerScissors" src="./assets-Chp4/gunting.png" onclick="milih('Scissors')" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="vsNhasil-container">
+                        <h1 id="hasilText">VS</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 com-container text-center" id="com">
+                    <h3>COM</h3>
+                    <!-- <h2>
+                        com - <span id="comScore">0</span>
+                        <span id="comChoice">-- Choice</span>
+                    </h2> -->
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img id="comRock" src="./assets-Chp4/batu.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img id="comPaper" class="kertasIMG" src="./assets-Chp4/kertas.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <img id="comScissors" src="./assets-Chp4/gunting.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reset-container text-center">
+            <img id="reset" onclick="location.reload()" class="reset" src="./assets-Chp4/refresh.png" alt="">
+        </div>
+    </section>
+
+    <script src="./js/Script-Chp4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

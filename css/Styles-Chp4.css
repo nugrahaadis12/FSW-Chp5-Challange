@@ -1,0 +1,43 @@
+b {
+    color: #724C21;
+}
+
+.logo-RPS {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#RPS-Game {
+ background-color: #9C835F;
+ height: 100vh;
+
+}
+
+img {
+    max-width: 30%;
+}
+.kertasIMG{
+    max-width: 22.5%;
+}
+
+.reset {
+    max-width: 3%;
+}
+
+.vsNhasil-container {
+    font-size: 100px;
+    color: red;
+    margin-top: 175px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.card {
+    background-color: #9C835F;
+    border-color: #9C835F;
+}
+.selectedStyle{
+    background: #C4C4C4;
+    padding: 5px;
+    border-radius: 5px;
+}
